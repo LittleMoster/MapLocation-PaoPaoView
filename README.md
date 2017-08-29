@@ -1,0 +1,2 @@
+# MapLocation-PaoPaoView
+封装了百度地图以及原生地图的获取定位信息，block回调相关的位置信息。以及百度的大头针相关的一些内容。（LocationToolProduct是封装好的定位的工具类，以及自己写的百度大头针view）
