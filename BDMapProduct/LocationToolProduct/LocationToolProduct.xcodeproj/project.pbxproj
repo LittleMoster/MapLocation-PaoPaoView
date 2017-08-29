@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95340EBC1F5516B600C89695 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95340EBB1F5516B600C89695 /* main.m */; };
+		95340EBF1F5516B600C89695 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95340EBE1F5516B600C89695 /* AppDelegate.m */; };
+		95340EC21F5516B600C89695 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95340EC11F5516B600C89695 /* ViewController.m */; };
+		95340EC51F5516B600C89695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95340EC31F5516B600C89695 /* Main.storyboard */; };
+		95340EC71F5516B600C89695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95340EC61F5516B600C89695 /* Assets.xcassets */; };
+		95340ECA1F5516B600C89695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95340EC81F5516B600C89695 /* LaunchScreen.storyboard */; };
+		95340ED51F5516B600C89695 /* LocationToolProductTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95340ED41F5516B600C89695 /* LocationToolProductTests.m */; };
+		95340EE01F5516B600C89695 /* LocationToolProductUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95340EDF1F5516B600C89695 /* LocationToolProductUITests.m */; };
+		95340EF01F55172900C89695 /* LocationCityTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 95340EEF1F55172900C89695 /* LocationCityTool.m */; };
+		95340EF31F55175A00C89695 /* LocationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 95340EF21F55175A00C89695 /* LocationTool.m */; };
+		95340EF61F55555D00C89695 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95340EF51F55555D00C89695 /* MapViewController.m */; };
+		95340EFC1F5556A700C89695 /* ServicedateilView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95340EF91F5556A700C89695 /* ServicedateilView.m */; };
+		95340EFD1F5556A700C89695 /* ServicePaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95340EFB1F5556A700C89695 /* ServicePaoView.m */; };
+		A4F05AD6F9FD6B21AF119B7C /* libPods-LocationToolProduct.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D205B3C801C7F023C3D73A46 /* libPods-LocationToolProduct.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95340ED11F5516B600C89695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95340EAF1F5516B600C89695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95340EB61F5516B600C89695;
+			remoteInfo = LocationToolProduct;
+		};
+		95340EDC1F5516B600C89695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95340EAF1F5516B600C89695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95340EB61F5516B600C89695;
+			remoteInfo = LocationToolProduct;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48513DF6DD9DED7F97EC9931 /* Pods-LocationToolProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationToolProduct.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocationToolProduct/Pods-LocationToolProduct.debug.xcconfig"; sourceTree = "<group>"; };
+		95340EB71F5516B600C89695 /* LocationToolProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationToolProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95340EBB1F5516B600C89695 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95340EBD1F5516B600C89695 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95340EBE1F5516B600C89695 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95340EC01F5516B600C89695 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95340EC11F5516B600C89695 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95340EC41F5516B600C89695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95340EC61F5516B600C89695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95340EC91F5516B600C89695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95340ECB1F5516B600C89695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95340ED01F5516B600C89695 /* LocationToolProductTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationToolProductTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95340ED41F5516B600C89695 /* LocationToolProductTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationToolProductTests.m; sourceTree = "<group>"; };
+		95340ED61F5516B600C89695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95340EDB1F5516B600C89695 /* LocationToolProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationToolProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95340EDF1F5516B600C89695 /* LocationToolProductUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationToolProductUITests.m; sourceTree = "<group>"; };
+		95340EE11F5516B600C89695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95340EEE1F55172900C89695 /* LocationCityTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCityTool.h; sourceTree = "<group>"; };
+		95340EEF1F55172900C89695 /* LocationCityTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationCityTool.m; sourceTree = "<group>"; };
+		95340EF11F55175A00C89695 /* LocationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTool.h; sourceTree = "<group>"; };
+		95340EF21F55175A00C89695 /* LocationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTool.m; sourceTree = "<group>"; };
+		95340EF41F55555D00C89695 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		95340EF51F55555D00C89695 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		95340EF81F5556A700C89695 /* ServicedateilView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicedateilView.h; sourceTree = "<group>"; };
+		95340EF91F5556A700C89695 /* ServicedateilView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicedateilView.m; sourceTree = "<group>"; };
+		95340EFA1F5556A700C89695 /* ServicePaoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicePaoView.h; sourceTree = "<group>"; };
+		95340EFB1F5556A700C89695 /* ServicePaoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicePaoView.m; sourceTree = "<group>"; };
+		D205B3C801C7F023C3D73A46 /* libPods-LocationToolProduct.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LocationToolProduct.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF85CD499D11A8770B35AF77 /* Pods-LocationToolProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationToolProduct.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationToolProduct/Pods-LocationToolProduct.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95340EB41F5516B600C89695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F05AD6F9FD6B21AF119B7C /* libPods-LocationToolProduct.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95340ECD1F5516B600C89695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95340ED81F5516B600C89695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54493BE6ABE104136250B3EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D205B3C801C7F023C3D73A46 /* libPods-LocationToolProduct.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95340EAE1F5516B600C89695 = {
+			isa = PBXGroup;
+			children = (
+				95340EB91F5516B600C89695 /* LocationToolProduct */,
+				95340ED31F5516B600C89695 /* LocationToolProductTests */,
+				95340EDE1F5516B600C89695 /* LocationToolProductUITests */,
+				95340EB81F5516B600C89695 /* Products */,
+				FEFA31EB793A24FE2430C55E /* Pods */,
+				54493BE6ABE104136250B3EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95340EB81F5516B600C89695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95340EB71F5516B600C89695 /* LocationToolProduct.app */,
+				95340ED01F5516B600C89695 /* LocationToolProductTests.xctest */,
+				95340EDB1F5516B600C89695 /* LocationToolProductUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95340EB91F5516B600C89695 /* LocationToolProduct */ = {
+			isa = PBXGroup;
+			children = (
+				95340EF71F5556A700C89695 /* View */,
+				95340EED1F55172900C89695 /* LocationTool */,
+				95340EBD1F5516B600C89695 /* AppDelegate.h */,
+				95340EBE1F5516B600C89695 /* AppDelegate.m */,
+				95340EC01F5516B600C89695 /* ViewController.h */,
+				95340EC11F5516B600C89695 /* ViewController.m */,
+				95340EC31F5516B600C89695 /* Main.storyboard */,
+				95340EC61F5516B600C89695 /* Assets.xcassets */,
+				95340EC81F5516B600C89695 /* LaunchScreen.storyboard */,
+				95340ECB1F5516B600C89695 /* Info.plist */,
+				95340EBA1F5516B600C89695 /* Supporting Files */,
+				95340EF41F55555D00C89695 /* MapViewController.h */,
+				95340EF51F55555D00C89695 /* MapViewController.m */,
+			);
+			path = LocationToolProduct;
+			sourceTree = "<group>";
+		};
+		95340EBA1F5516B600C89695 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95340EBB1F5516B600C89695 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95340ED31F5516B600C89695 /* LocationToolProductTests */ = {
+			isa = PBXGroup;
+			children = (
+				95340ED41F5516B600C89695 /* LocationToolProductTests.m */,
+				95340ED61F5516B600C89695 /* Info.plist */,
+			);
+			path = LocationToolProductTests;
+			sourceTree = "<group>";
+		};
+		95340EDE1F5516B600C89695 /* LocationToolProductUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95340EDF1F5516B600C89695 /* LocationToolProductUITests.m */,
+				95340EE11F5516B600C89695 /* Info.plist */,
+			);
+			path = LocationToolProductUITests;
+			sourceTree = "<group>";
+		};
+		95340EED1F55172900C89695 /* LocationTool */ = {
+			isa = PBXGroup;
+			children = (
+				95340EF11F55175A00C89695 /* LocationTool.h */,
+				95340EF21F55175A00C89695 /* LocationTool.m */,
+				95340EEE1F55172900C89695 /* LocationCityTool.h */,
+				95340EEF1F55172900C89695 /* LocationCityTool.m */,
+			);
+			path = LocationTool;
+			sourceTree = "<group>";
+		};
+		95340EF71F5556A700C89695 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95340EF81F5556A700C89695 /* ServicedateilView.h */,
+				95340EF91F5556A700C89695 /* ServicedateilView.m */,
+				95340EFA1F5556A700C89695 /* ServicePaoView.h */,
+				95340EFB1F5556A700C89695 /* ServicePaoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEFA31EB793A24FE2430C55E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48513DF6DD9DED7F97EC9931 /* Pods-LocationToolProduct.debug.xcconfig */,
+				FF85CD499D11A8770B35AF77 /* Pods-LocationToolProduct.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95340EB61F5516B600C89695 /* LocationToolProduct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95340EE41F5516B600C89695 /* Build configuration list for PBXNativeTarget "LocationToolProduct" */;
+			buildPhases = (
+				A7759CE2ABB2458D51A6D981 /* [CP] Check Pods Manifest.lock */,
+				95340EB31F5516B600C89695 /* Sources */,
+				95340EB41F5516B600C89695 /* Frameworks */,
+				95340EB51F5516B600C89695 /* Resources */,
+				97DEC8B5D15581C31D468A0C /* [CP] Embed Pods Frameworks */,
+				D9A91EFEF27C5F4BF5D65E2C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationToolProduct;
+			productName = LocationToolProduct;
+			productReference = 95340EB71F5516B600C89695 /* LocationToolProduct.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95340ECF1F5516B600C89695 /* LocationToolProductTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95340EE71F5516B600C89695 /* Build configuration list for PBXNativeTarget "LocationToolProductTests" */;
+			buildPhases = (
+				95340ECC1F5516B600C89695 /* Sources */,
+				95340ECD1F5516B600C89695 /* Frameworks */,
+				95340ECE1F5516B600C89695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95340ED21F5516B600C89695 /* PBXTargetDependency */,
+			);
+			name = LocationToolProductTests;
+			productName = LocationToolProductTests;
+			productReference = 95340ED01F5516B600C89695 /* LocationToolProductTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95340EDA1F5516B600C89695 /* LocationToolProductUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95340EEA1F5516B600C89695 /* Build configuration list for PBXNativeTarget "LocationToolProductUITests" */;
+			buildPhases = (
+				95340ED71F5516B600C89695 /* Sources */,
+				95340ED81F5516B600C89695 /* Frameworks */,
+				95340ED91F5516B600C89695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95340EDD1F5516B600C89695 /* PBXTargetDependency */,
+			);
+			name = LocationToolProductUITests;
+			productName = LocationToolProductUITests;
+			productReference = 95340EDB1F5516B600C89695 /* LocationToolProductUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95340EAF1F5516B600C89695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zjq;
+				TargetAttributes = {
+					95340EB61F5516B600C89695 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+					95340ECF1F5516B600C89695 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95340EB61F5516B600C89695;
+					};
+					95340EDA1F5516B600C89695 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95340EB61F5516B600C89695;
+					};
+				};
+			};
+			buildConfigurationList = 95340EB21F5516B600C89695 /* Build configuration list for PBXProject "LocationToolProduct" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95340EAE1F5516B600C89695;
+			productRefGroup = 95340EB81F5516B600C89695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95340EB61F5516B600C89695 /* LocationToolProduct */,
+				95340ECF1F5516B600C89695 /* LocationToolProductTests */,
+				95340EDA1F5516B600C89695 /* LocationToolProductUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95340EB51F5516B600C89695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95340ECA1F5516B600C89695 /* LaunchScreen.storyboard in Resources */,
+				95340EC71F5516B600C89695 /* Assets.xcassets in Resources */,
+				95340EC51F5516B600C89695 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95340ECE1F5516B600C89695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95340ED91F5516B600C89695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97DEC8B5D15581C31D468A0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationToolProduct/Pods-LocationToolProduct-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7759CE2ABB2458D51A6D981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9A91EFEF27C5F4BF5D65E2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationToolProduct/Pods-LocationToolProduct-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95340EB31F5516B600C89695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95340EC21F5516B600C89695 /* ViewController.m in Sources */,
+				95340EF01F55172900C89695 /* LocationCityTool.m in Sources */,
+				95340EF31F55175A00C89695 /* LocationTool.m in Sources */,
+				95340EF61F55555D00C89695 /* MapViewController.m in Sources */,
+				95340EBF1F5516B600C89695 /* AppDelegate.m in Sources */,
+				95340EBC1F5516B600C89695 /* main.m in Sources */,
+				95340EFC1F5556A700C89695 /* ServicedateilView.m in Sources */,
+				95340EFD1F5556A700C89695 /* ServicePaoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95340ECC1F5516B600C89695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95340ED51F5516B600C89695 /* LocationToolProductTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95340ED71F5516B600C89695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95340EE01F5516B600C89695 /* LocationToolProductUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95340ED21F5516B600C89695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95340EB61F5516B600C89695 /* LocationToolProduct */;
+			targetProxy = 95340ED11F5516B600C89695 /* PBXContainerItemProxy */;
+		};
+		95340EDD1F5516B600C89695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95340EB61F5516B600C89695 /* LocationToolProduct */;
+			targetProxy = 95340EDC1F5516B600C89695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95340EC31F5516B600C89695 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95340EC41F5516B600C89695 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95340EC81F5516B600C89695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95340EC91F5516B600C89695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95340EE21F5516B600C89695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95340EE31F5516B600C89695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95340EE51F5516B600C89695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48513DF6DD9DED7F97EC9931 /* Pods-LocationToolProduct.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LocationToolProduct/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.map.location;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95340EE61F5516B600C89695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF85CD499D11A8770B35AF77 /* Pods-LocationToolProduct.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LocationToolProduct/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.map.location;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95340EE81F5516B600C89695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocationToolProductTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong1943.LocationToolProductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationToolProduct.app/LocationToolProduct";
+			};
+			name = Debug;
+		};
+		95340EE91F5516B600C89695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocationToolProductTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong1943.LocationToolProductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationToolProduct.app/LocationToolProduct";
+			};
+			name = Release;
+		};
+		95340EEB1F5516B600C89695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocationToolProductUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong1943.LocationToolProductUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocationToolProduct;
+			};
+			name = Debug;
+		};
+		95340EEC1F5516B600C89695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocationToolProductUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong1943.LocationToolProductUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocationToolProduct;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95340EB21F5516B600C89695 /* Build configuration list for PBXProject "LocationToolProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95340EE21F5516B600C89695 /* Debug */,
+				95340EE31F5516B600C89695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95340EE41F5516B600C89695 /* Build configuration list for PBXNativeTarget "LocationToolProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95340EE51F5516B600C89695 /* Debug */,
+				95340EE61F5516B600C89695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95340EE71F5516B600C89695 /* Build configuration list for PBXNativeTarget "LocationToolProductTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95340EE81F5516B600C89695 /* Debug */,
+				95340EE91F5516B600C89695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95340EEA1F5516B600C89695 /* Build configuration list for PBXNativeTarget "LocationToolProductUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95340EEB1F5516B600C89695 /* Debug */,
+				95340EEC1F5516B600C89695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95340EAF1F5516B600C89695 /* Project object */;
+}
