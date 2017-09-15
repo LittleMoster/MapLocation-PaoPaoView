@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'MAMapServicesProduct' do
+
+ pod 'AMap3DMap'
+ pod 'AMapSearch'
+ pod 'AMapLocation'
+ 
+
+
+end
